@@ -1,0 +1,75 @@
+.list-order .acc_head {
+    padding: 3px !important;
+}
+
+.list-order .acc_head h3 {
+    font-size: 13px !important;
+    font-weight: bolder;
+}
+
+.list-order.accordionjs .acc_section.acc_active .acc_head h3:before, .accordionjs .acc_section .acc_head h3:before {
+    font-size: 10px;
+    top: 10px;
+}
+
+.list-order.accordionjs .acc_section.acc_active > .acc_head {
+    background: #e9ecef;
+    color: #000 !important;
+}
+.list-order.accordionjs .acc_section.acc_active .acc_head h3:before {
+    color: #000 !important;
+}
+.card-info-order {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    opacity: 0;
+    transition: .5s;
+}
+.card-info-order.active{
+    left: 0;
+    opacity: 1;
+}
+
+.list-order {
+    position: relative;
+}
+.list-chat-customer {
+    position: relative;
+}
+
+.list-order-customer {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    right: -100%;
+    transition: 0.3s;
+    z-index: 99999;
+}
+.list-order-customer.active{
+    right: 0;
+}
+.toggle-detail {
+    position: absolute;
+    top: 50%;
+    left: -14px;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.toggle-detail i {
+    font-size: 30px;
+    font-weight: bold;
+}
+.boxshadow-none{
+    box-shadow: none !important;
+}   
+.contacts .img_cont, .contacts .img_cont img {
+    width: 35px !important;
+    height: 35px !important;
+}
+.cart-item-list {
+    height: 39%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
